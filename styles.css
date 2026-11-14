@@ -137,6 +137,9 @@ h1 {
   margin: 0;
   width: 100%;
   align-self: end;
+}
+
+.portrait-frame {
   aspect-ratio: 3 / 4;
   overflow: hidden;
 }
@@ -152,7 +155,7 @@ h1 {
 
 .portrait figcaption {
   margin-top: 7px;
-  color: var(--muted);
+  color: #808080;
   font-size: 11px;
 }
 
