@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yijin Chen is a robotics researcher at Shanghai Jiao Tong University working on embodied AI, robot learning, and dexterous manipulation.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Yijin Chen | Robotics & Embodied AI</title>
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=portrait-crop">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <main id="main">
+    <section class="hero shell" id="about">
+      <div class="hero-copy reveal">
+        <h1>Yijin Chen</h1>
+        <div class="bio">
+          <p>
+            I am a <strong>master's student</strong> at the <a href="https://soai.sjtu.edu.cn/" target="_blank" rel="noreferrer">School of Artificial Intelligence</a>,
+            <a href="https://en.sjtu.edu.cn/" target="_blank" rel="noreferrer">Shanghai Jiao Tong University (SJTU)</a>,
+            advised by Prof. <a href="https://www.mvig.org/" target="_blank" rel="noreferrer"><strong>Cewu Lu</strong></a> and Prof. <a href="https://alvinwen428.github.io/" target="_blank" rel="noreferrer"><strong>Chuan Wen</strong></a>.
+            I have worked on <strong>dexterous manipulation</strong>, <strong>policy post-training</strong>, and <strong>agentic robot systems</strong>.
+            Previously, I received my B.Eng. from SJTU's IEEE Honor Class in 2025.
+          </p>
+          <p>
+            My research interests lie in <strong>robot learning</strong> and <strong>embodied AI</strong>, particularly learning <strong>dexterous manipulation</strong> through vision and touch, improving robot policies with <strong>human-in-the-loop learning</strong> and <strong>efficient post-training systems</strong>, and building <strong>agentic robot systems</strong> that organize learned skills for autonomous <strong>self-improvement</strong>.
+          </p>
+          <p>
+            Outside research, I am a member of the SJTU badminton team and play fingerstyle guitar, with performances at university club showcases.
+          </p>
+        </div>
+        <div class="contact-row" aria-label="Contact links">
+          <a class="contact-link" href="mailto:st.czzz@sjtu.edu.cn"><i data-lucide="mail" aria-hidden="true"></i>Email</a>
+          <a class="contact-link" href="https://github.com/StCzzZ" target="_blank" rel="noreferrer"><i data-lucide="github" aria-hidden="true"></i>GitHub</a>
+        </div>
+      </div>
+
+      <figure class="portrait reveal">
+        <img src="assets/yijin-chen-travel.jpg" alt="Portrait of Yijin Chen" width="3072" height="4096">
+      </figure>
+    </section>
+
+    <section class="section shell" id="news">
+      <header class="section-heading reveal">
+        <h2><span aria-hidden="true">//</span> News</h2>
+      </header>
+        <div class="timeline reveal">
+          <article class="news-item">
+            <time datetime="2026-10">Oct 2026</time>
+            <p>We propose <a href="https://virlus.github.io/vam/" target="_blank" rel="noreferrer">VaM</a>, an online post-training framework that uses recent value predictions as memory for general robot policies.</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2026-10">Oct 2026</time>
+            <p>We propose <a href="https://arxiv.org/abs/2610.12424" target="_blank" rel="noreferrer">RoboRSI</a>, a robot self-improvement system based on top-down skill refinement.</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2026">2026</time>
+            <p><a href="https://arxiv.org/abs/2508.14441" target="_blank" rel="noreferrer">FBI</a> has been accepted by IEEE ICRA 2026.</p>
+          </article>
+          <article class="news-item">
+            <time datetime="2024-07">Jul 2024</time>
+            <p><a href="https://arxiv.org/abs/2402.11900" target="_blank" rel="noreferrer">Investigating Multi-Hop Factual Shortcuts in Knowledge Editing of Large Language Models</a> has been accepted by ACL 2024 Main Conference.</p>
+          </article>
+        </div>
+    </section>
+
+    <section class="section shell" id="research">
+      <header class="section-heading inline-heading reveal">
+        <div>
+          <h2><span aria-hidden="true">//</span> Research</h2>
+        </div>
+        <p class="heading-note"><sup>*</sup> denotes equal contribution.</p>
+      </header>
+
+      <div class="research-list">
+        <article class="research-item reveal">
+          <div class="project-media project-video reorientation-demo">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/fbi-poster.jpg?v=target-restored" aria-label="FBI continuous in-hand reorientation of a colored apple and purple cube, followed by in-hand push demonstrations, without tactile sensors">
+              <source src="assets/fbi-demo.mp4?v=target-restored" type="video/mp4">
+            </video>
+          </div>
+          <div class="project-copy">
+            <div class="project-meta"><span>ICRA 2026</span></div>
+            <h3>FBI: Learning Dexterous In-hand Manipulation with Dynamic Visuotactile Shortcut Policy</h3>
+            <p class="authors"><strong>Yijin Chen<sup>*</sup></strong>, Wenqiang Xu<sup>*</sup>, Zhenjun Yu, Tutian Tang, Yutong Li, Siqiong Yao, Cewu Lu</p>
+            <p>FBI links tactile signals to object motion and fuses the resulting tactile features with visual observations. A one-step diffusion policy runs the system in real time.</p>
+            <div class="project-links">
+              <a href="https://sites.google.com/view/dex-fbi" target="_blank" rel="noreferrer"><i data-lucide="layout-template" aria-hidden="true"></i>Project</a>
+              <a href="https://arxiv.org/abs/2508.14441" target="_blank" rel="noreferrer"><i data-lucide="file-text" aria-hidden="true"></i>Paper</a>
+              <a href="https://github.com/StCzzZ/Flow-Before-Imitation" target="_blank" rel="noreferrer"><i data-lucide="github" aria-hidden="true"></i>Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="research-item reveal">
+          <div class="project-media project-video">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/vam-poster.jpg" aria-label="VaM autonomous box assembly demonstration">
+              <source src="assets/vam-demo.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="project-copy">
+            <div class="project-meta"><span>Preprint 2026</span></div>
+            <h3>Value as Memory: Online Value-Guided Post-training for General Robot Policies</h3>
+            <p class="authors">Wenye Yu<sup>*</sup>, <strong>Yijin Chen<sup>*</sup></strong>, Kaiyi Xiong<sup>*</sup>, Wenbo Han, Wendi Chen, Yang Jin, Han Xue, Jun Lv, Cewu Lu, Chuan Wen</p>
+            <p>VaM gives the policy a short history of value predictions as a memory cache. It learns from offline demonstrations, human interventions, and autonomous rollouts.</p>
+            <div class="project-links">
+              <a href="https://virlus.github.io/vam/" target="_blank" rel="noreferrer"><i data-lucide="layout-template" aria-hidden="true"></i>Project</a>
+              <a href="https://arxiv.org/abs/2610.22368" target="_blank" rel="noreferrer"><i data-lucide="file-text" aria-hidden="true"></i>Paper</a>
+              <a href="https://github.com/Virlus/vam" target="_blank" rel="noreferrer"><i data-lucide="github" aria-hidden="true"></i>Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="research-item reveal">
+          <div class="project-media project-video">
+            <video autoplay muted loop playsinline preload="metadata" poster="assets/roborsi-poster.jpg" aria-label="RoboRSI long-horizon mobile manipulation demonstration">
+              <source src="assets/roborsi-demo.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="project-copy">
+            <div class="project-meta"><span>Preprint 2026</span></div>
+            <h3>RoboRSI: Stable, Efficient, and Reusable Robot Self-Evolution</h3>
+            <p class="authors">Zimo Wen<sup>*</sup>, <strong>Yijin Chen<sup>*</sup></strong>, Yuxuan Cao<sup>*</sup>, Wendi Chen, Yanwen Zou, Wenye Yu, Fuhang Kuang, Han Xue, Jun Lv, Chuan Wen, Cewu Lu</p>
+            <p>RoboRSI uses a hierarchical top-down skill refinement process to assign failures to the responsible skill. Agents revise and validate that skill before adding it back to the reusable skill library.</p>
+            <div class="project-links">
+              <a href="https://lab.noematrix.ai/blog/2-roborsi/" target="_blank" rel="noreferrer"><i data-lucide="layout-template" aria-hidden="true"></i>Project</a>
+              <a href="https://arxiv.org/abs/2610.12424" target="_blank" rel="noreferrer"><i data-lucide="file-text" aria-hidden="true"></i>Paper</a>
+              <a href="https://github.com/nssmd/RoboRSI" target="_blank" rel="noreferrer"><i data-lucide="github" aria-hidden="true"></i>Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="research-item reveal">
+          <a class="project-media factual-teaser" href="https://arxiv.org/abs/2402.11900" target="_blank" rel="noreferrer" aria-label="Open the factual shortcuts paper">
+            <img src="assets/factual-shortcuts-teaser.png" alt="Example of a factual shortcut before and after knowledge editing">
+          </a>
+          <div class="project-copy">
+            <div class="project-meta"><span>ACL 2024 Main</span></div>
+            <h3>Investigating Multi-Hop Factual Shortcuts in Knowledge Editing of Large Language Models</h3>
+            <p class="authors">Tianjie Ju, <strong>Yijin Chen</strong>, Xinwei Yuan, Zhuosheng Zhang, Wei Du, Yubin Zheng, Gongshen Liu</p>
+            <p>We study when language models use direct factual shortcuts instead of following a multi-hop reasoning path, and how these shortcuts affect knowledge editing.</p>
+            <div class="project-links">
+              <a href="https://arxiv.org/abs/2402.11900" target="_blank" rel="noreferrer"><i data-lucide="file-text" aria-hidden="true"></i>Paper</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>&copy; <span id="year">2026</span> Yijin Chen</p>
+      <a href="#about">Back to top <i data-lucide="arrow-up" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
